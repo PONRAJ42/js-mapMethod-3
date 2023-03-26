@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="html,js">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>map method</title>
+	
+	
+  
+</head> 
+	<body>
+		<script>
+			const users = [
+			  {
+				first_name: 'Mike',
+				location: 'London'
+			  },
+			  {
+				first_name: 'Tim',
+				location: 'US'
+			  },
+			  {
+				first_name: 'John',
+				location: 'Australia'
+			  }
+			];
+			
+					a=users.map(function(val){
+				
+						 return val.first_name+" live in "+val.location;
+					})
+					
+					console.log(a);
+
+		</script>
+	</body>
+	</html>
